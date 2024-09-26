@@ -1,0 +1,37 @@
+.contact-container{
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px solid;
+    border-radius: 4px;
+}
+
+.form-group button{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: thistle;
+}
+
